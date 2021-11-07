@@ -17,6 +17,7 @@
 		AAB9B091273694F800BBBBE0 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B090273694F800BBBBE0 /* Color+Codable.swift */; };
 		AAB9B0932736B04400BBBBE0 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0922736B04400BBBBE0 /* ScrumsView.swift */; };
 		AAB9B0952736C3C700BBBBE0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0942736C3C700BBBBE0 /* DetailView.swift */; };
+		AABB538C2738040F00C02B3E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB538B2738040F00C02B3E /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AAB9B090273694F800BBBBE0 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		AAB9B0922736B04400BBBBE0 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		AAB9B0942736C3C700BBBBE0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AABB538B2738040F00C02B3E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				AAB9B0872736824700BBBBE0 /* Models */,
 				AAB9B07D27366EAC00BBBBE0 /* Assets.xcassets */,
 				AAB9B07F27366EAC00BBBBE0 /* Preview Content */,
+				AABB538B2738040F00C02B3E /* EditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				AAB9B07C27366EAA00BBBBE0 /* MeetingView.swift in Sources */,
 				AAB9B0932736B04400BBBBE0 /* ScrumsView.swift in Sources */,
+				AABB538C2738040F00C02B3E /* EditView.swift in Sources */,
 				AAB9B0892736826900BBBBE0 /* DailyScrum.swift in Sources */,
 				AAB9B0952736C3C700BBBBE0 /* DetailView.swift in Sources */,
 				AAB9B08B27368F9F00BBBBE0 /* CardView.swift in Sources */,
