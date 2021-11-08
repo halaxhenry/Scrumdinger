@@ -10,7 +10,7 @@ See LICENSE folder for this sample’s licensing information.
 */
 import SwiftUI
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     let id: UUID
     var title: String
     var attendees: [String]
