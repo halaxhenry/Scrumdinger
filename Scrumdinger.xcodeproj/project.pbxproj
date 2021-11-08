@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB77A812739529E00BD1238 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB77A802739529E00BD1238 /* History.swift */; };
 		AAB9B07A27366EAA00BBBBE0 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B07927366EAA00BBBBE0 /* ScrumdingerApp.swift */; };
 		AAB9B07C27366EAA00BBBBE0 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B07B27366EAA00BBBBE0 /* MeetingView.swift */; };
 		AAB9B07E27366EAC00BBBBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB9B07D27366EAC00BBBBE0 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAB77A802739529E00BD1238 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		AAB9B07627366EAA00BBBBE0 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB9B07927366EAA00BBBBE0 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		AAB9B07B27366EAA00BBBBE0 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				AAB9B0882736826900BBBBE0 /* DailyScrum.swift */,
 				AACB52722738D48E00B7204D /* ScrumTimer.swift */,
 				AAC17B72273948FD00134CEB /* AVPlayer+Ding.swift */,
+				AAB77A802739529E00BD1238 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				AAB9B07C27366EAA00BBBBE0 /* MeetingView.swift in Sources */,
 				AAB9B0932736B04400BBBBE0 /* ScrumsView.swift in Sources */,
+				AAB77A812739529E00BD1238 /* History.swift in Sources */,
 				AAC17B71273943ED00134CEB /* ScrumProgressViewStyle.swift in Sources */,
 				AAC17B73273948FD00134CEB /* AVPlayer+Ding.swift in Sources */,
 				AABB538C2738040F00C02B3E /* EditView.swift in Sources */,
