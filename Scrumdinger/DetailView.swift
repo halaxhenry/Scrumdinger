@@ -4,7 +4,6 @@
 //
 //  Created by Seungchul Ha on 11/6/21.
 //
-
 import SwiftUI
 
 struct DetailView: View {
@@ -15,15 +14,15 @@ struct DetailView: View {
         List {
             Section(header: Text("Meeting Info")) {
                 NavigationLink(
-                    destination: MeetingView()) {
+                    destination: MeetingView(scrum: $scrum)) {
                         Label("Start Meeting", systemImage: "timer")
                             .font(.headline)
                             .foregroundColor(.accentColor)
-                            .accessibilityLabel(Text("start meeting"))
+                            .accessibilityLabel(Text("Start meeting"))
                     }
                 HStack {
                     Label("Length", systemImage: "clock")
-                        .accessibilityLabel(Text("meeting length"))
+                        .accessibilityLabel(Text("Meeting length"))
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
@@ -38,7 +37,7 @@ struct DetailView: View {
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees, id: \.self) { attendee in
                     Label(attendee, systemImage: "person")
-                        .accessibilityLabel(Text("person"))
+                        .accessibilityLabel(Text("Person"))
                         .accessibilityValue(Text(attendee))
                 }
             }
