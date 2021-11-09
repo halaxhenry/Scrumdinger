@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA047770273A9795003AE4D0 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA04776F273A9795003AE4D0 /* MeetingTimerView.swift */; };
 		AAB77A812739529E00BD1238 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB77A802739529E00BD1238 /* History.swift */; };
 		AAB77A8327395A2C00BD1238 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB77A8227395A2C00BD1238 /* ScrumData.swift */; };
 		AAB9B07A27366EAA00BBBBE0 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B07927366EAA00BBBBE0 /* ScrumdingerApp.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA04776F273A9795003AE4D0 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		AAB77A802739529E00BD1238 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		AAB77A8227395A2C00BD1238 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		AAB9B07627366EAA00BBBBE0 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		AAB9B07827366EAA00BBBBE0 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				AA04776F273A9795003AE4D0 /* MeetingTimerView.swift */,
 				AAC17B6E2738D81900134CEB /* MeetingFooterView.swift */,
 				AAC17B70273943ED00134CEB /* ScrumProgressViewStyle.swift */,
 				AACB52702738D0F300B7204D /* MeetingHeaderView.swift */,
@@ -194,6 +197,7 @@
 				AAC17B71273943ED00134CEB /* ScrumProgressViewStyle.swift in Sources */,
 				AAC17B73273948FD00134CEB /* AVPlayer+Ding.swift in Sources */,
 				AAB77A8327395A2C00BD1238 /* ScrumData.swift in Sources */,
+				AA047770273A9795003AE4D0 /* MeetingTimerView.swift in Sources */,
 				AABB538C2738040F00C02B3E /* EditView.swift in Sources */,
 				AACB52712738D0F300B7204D /* MeetingHeaderView.swift in Sources */,
 				AACB52732738D48E00B7204D /* ScrumTimer.swift in Sources */,
